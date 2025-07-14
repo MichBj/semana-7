@@ -1,0 +1,25 @@
+body {
+    background-color: #28a745; /* Verde de Bootstrap (success) */
+}
+
+#productList {
+    max-width: 600px; /* Limitar ancho de la lista */
+    margin: 0 auto; /* Centrar la lista */
+}
+
+.list-group-item {
+    background-color: #ffffff; /* Fondo blanco para los elementos de la lista */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio entre elementos */
+    padding: 15px; /* Espaciado interno */
+}
+
+.list-group-item h5 {
+    margin-bottom: 10px; /* Espacio bajo el nombre del producto */
+    color: #333; /* Color oscuro para el título */
+}
+
+.list-group-item p {
+    margin: 0; /* Sin márgenes para el precio y descripción */
+    color: #555; /* Color gris para el texto */
+}

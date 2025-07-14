@@ -37,4 +37,3 @@ document.addEventListener("DOMContentLoaded", renderProducts);
 
 // Asociar el botón de agregar producto
 document.getElementById("addProductBtn").addEventListener("click", addProduct);
-//fin

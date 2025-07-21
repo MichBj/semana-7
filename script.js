@@ -38,3 +38,8 @@ document.addEventListener("DOMContentLoaded", renderProducts);
 // Asociar el botón de agregar producto
 document.getElementById("addProductBtn").addEventListener("click", addProduct);
 //fin
+// Redirección al hacer clic en el botón "Semana 8"
+document.getElementById('semana8Btn').addEventListener('click', function() {
+    window.location.href = 'index2.html'; // Ruta relativa dentro de la carpeta semana8
+});
+
